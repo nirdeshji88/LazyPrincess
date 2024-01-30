@@ -50,9 +50,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/real_MoviesAdda3)</b>⚡\n\n🎦 <b>File Name: </b> ➥  {file_caption} \n⚙️ <b>Size: </b><i>{file_size}</i>\n\n                ❤️<b>WE LOVE YOU</b>❤️\n🔥  ↭ <b>Join Now [MoviesAdda™](https://t.me/real_MoviesAdda3)</b> ↭  🔥")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Hd2bit™](https://t.me/+jg8-fN6IdZ8wYzM1)</b>⚡\n\n🎦 <b>File Name: </b> ➥  {file_caption} \n⚙️ <b>Size: </b><i>{file_size}</i>\n\n                ❤️<b>WE LOVE YOU</b>❤️\n🔥  ↭ <b>Join Now [Hd2bit™](https://t.me/+jg8-fN6IdZ8wYzM1)</b> ↭  🔥")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb Data by: @LazyDeveloper \n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌𝐈𝐌𝐃𝐛 𝐃𝐚𝐭𝐚 𝐛𝐲 ⊶ @Hd2bit_Channel \n\n ᴛɪᴛʟᴇ ⊶ <a href={url}>{title}</a>\n ɢᴇɴʀᴇꜱ ⊶ {genres}\n ʏᴇᴀʀ ⊶ <a href={url}/releaseinfo>{year}</a>\n ʀᴀᴛɪɴɢ ⊶ <a href={url}/ratings>{rating}</a> / 10 \n\n★ Please Share Us ★\n\n▽ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ▽ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ Qᴜᴇʀʏ ᴘʀɪᴠᴀᴛᴇʟʏ")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -156,11 +156,11 @@ if SELF_DELETE == "True":
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/LazyDeveloper"
+DOWNLOAD_TEXT_URL = "https://t.me/Hd2bit_Channel"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/LazyDeveloper"
+CAPTION_BUTTON_URL = "https://t.me/Hd2bit_Channel"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
@@ -171,10 +171,10 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
-# Credit @LazyDeveloper.
+# Credit @Hd2bit_Channel.
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
+# Born to make history @Hd2bit_Channel !
 # Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# 🥰  Thank you for giving me credit @Hd2bit_Channel  🥰
+# for any error please contact me -> telegram@Hd2bit_Channel or insta @Hd2bit_Channel 
+# rip paid developers 🤣 - >> No need to buy paid source code while @Hd2bit_Channel is here 😍😍
