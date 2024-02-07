@@ -1839,7 +1839,7 @@ async def auto_filter(client, msg, spoll=False):
     
     btn.insert(0,
         [ 
-        InlineKeyboardButton(" 𝐅𝐈𝐋𝐓𝐄𝐑 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄 ʕʘ̅͜ʘ̅ʔ", callback_data=f"languages#{key}"),
+        InlineKeyboardButton(" 𝐅𝐈𝐋𝐓𝐄𝐑 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄 ", callback_data=f"languages#{key}"),
         ] 
     )
     btn.insert(0,
