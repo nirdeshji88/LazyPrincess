@@ -96,7 +96,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!/n मूवी को देखने करने के लिए आपको Upadate Channel और YouTube Channel को Subscribers करना पड़ेगा उसके बाद ही आप मूवी देख पाएंगे।**",
+            text="**Please Join My Updates Channel to use this Bot!\n\nमूवी को देखने करने के लिए आपको Upadate Channel और YouTube Channel को Subscribers करना पड़ेगा उसके बाद ही आप मूवी देख पाएंगे।**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
