@@ -28,7 +28,7 @@ async def start(client, message):
             [
                 InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
-            InlineKeyboardButton('⪦ Youtube Join Now ⪧', url='https://youtube.com/@Hd2bitfilm')
+            InlineKeyboardButton('⪦ Youtube Join Now ⪧', url='https://youtube.com/@Hd2bit_film')
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -55,7 +55,7 @@ async def start(client, message):
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
             ],[
-            InlineKeyboardButton('⪦ Youtube Join Now ⪧', url='https://youtube.com/@Hd2bitfilm')
+            InlineKeyboardButton('⪦ Youtube Join Now ⪧', url='https://youtube.com/@Hd2bit_film')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -79,7 +79,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 Youtube Join Now 🦋", url='https://youtube.com/@Hd2bitfilm'
+                    "♻️ Youtube Join Now ♻️", url='https://youtube.com/@Hd2bit_film'
                 )
             ]
         ]
@@ -109,7 +109,7 @@ async def start(client, message):
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ],
         [
-            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com/@Hd2bitfilm')
+            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com/@Hd2bit_film')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
